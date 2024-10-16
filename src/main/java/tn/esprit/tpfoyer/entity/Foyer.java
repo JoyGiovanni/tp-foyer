@@ -28,6 +28,9 @@ public class Foyer {
     @JsonIgnore
     Universite universite;
 
+
+
+    
     @OneToMany(mappedBy = "foyer")
             @JsonIgnore
             @ToString.Exclude
